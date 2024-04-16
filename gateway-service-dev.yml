@@ -1,6 +1,6 @@
 spring:
   application:
-    name: GatewayService
+    name: gateway-service
 
 server:
   servlet:
