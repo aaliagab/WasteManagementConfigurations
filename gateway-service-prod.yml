@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: GatewayService
+
+server:
+  servlet:
+    context-path: /
+  port: 8766
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    preferIpAddress: true
